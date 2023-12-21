@@ -11,3 +11,10 @@ git switch <브렌치 명>: 작업 브렌치 변경
 git merge <브렌치 명>: 브렌치 합병
 git Pull Request: 합병전 검토
 Fork: 브렌치 복사
+
+git-flow 방식
+-feature: 기능 단위 개발 브렌치
+-develop: 주요 개발 브렌치
+-release: 검토 브렌치
+-main: 최종 출시 브렌치
+-hotfix: main 직접 수정 브렌치
